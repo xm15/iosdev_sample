@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B2E0005F-8F1A-4E88-A105-05A46C8EDB00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Singleton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D972AADA-A024-4F84-8741-945633B797B8</key>
+		<string>https://github.com/caigee/ios_--.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Singleton/Singleton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D972AADA-A024-4F84-8741-945633B797B8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/caigee/ios_--.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D972AADA-A024-4F84-8741-945633B797B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D972AADA-A024-4F84-8741-945633B797B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_基础</string>
+		</dict>
+	</array>
+</dict>
+</plist>
