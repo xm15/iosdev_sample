@@ -42,7 +42,7 @@
 {
     [super viewDidLoad];
     
-    //
+    //添加监听
     self.abook = [[Book alloc]init];
     [_abook addObserver:self forKeyPath:@"price" options:NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew context:nil];
     
@@ -58,7 +58,7 @@
 
 -(void)change
 {
-    //
+    //两种方法触发监听
     NSDictionary *newBookPropertiesDictionary=[NSDictionary dictionaryWithObjectsAndKeys:
                                                @"book name",@"name",
                                                @"20.5",@"price",nil];
@@ -69,9 +69,11 @@
 
 -(void)dealloc
 {
+    //移除监听
     [_abook removeObserver:self forKeyPath:@"price"];
 }
 
+//实现监听
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if ([keyPath isEqual:@"price"]) {

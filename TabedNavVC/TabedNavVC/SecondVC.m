@@ -32,17 +32,30 @@
     
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(20.0, 80.0, 280, 40)];
     [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btn setTitle:@"NEXT" forState:UIControlStateNormal];
+    [btn setTitle:@"POP" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    do {
+        UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(20.0, 140, 280, 40)];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [btn setTitle:@"Dismiss" forState:UIControlStateNormal];
+        [btn addTarget:self action:@selector(disMiss) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:btn];
+    } while (0);
     // Do any additional setup after loading the view.
+}
+
+-(void)disMiss
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)next
 {
     SecondVC *second = [[SecondVC alloc]init];
     second.currentIndex = self.currentIndex +1;
-    [self.navigationController pushViewController:second animated:YES];
+    [self presentViewController:second animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
