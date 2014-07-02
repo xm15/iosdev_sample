@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B014E4371963E96A00C57A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E4361963E96A00C57A8E /* Foundation.framework */; };
+		B014E4391963E96A00C57A8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E4381963E96A00C57A8E /* CoreGraphics.framework */; };
+		B014E43B1963E96A00C57A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E43A1963E96A00C57A8E /* UIKit.framework */; };
+		B014E4411963E96A00C57A8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B014E43F1963E96A00C57A8E /* InfoPlist.strings */; };
+		B014E4431963E96A00C57A8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E4421963E96A00C57A8E /* main.m */; };
+		B014E4471963E96A00C57A8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E4461963E96A00C57A8E /* AppDelegate.m */; };
+		B014E4491963E96A00C57A8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B014E4481963E96A00C57A8E /* Images.xcassets */; };
+		B014E4501963E96A00C57A8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E44F1963E96A00C57A8E /* XCTest.framework */; };
+		B014E4511963E96A00C57A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E4361963E96A00C57A8E /* Foundation.framework */; };
+		B014E4521963E96A00C57A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B014E43A1963E96A00C57A8E /* UIKit.framework */; };
+		B014E45A1963E96A00C57A8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B014E4581963E96A00C57A8E /* InfoPlist.strings */; };
+		B014E45C1963E96A00C57A8E /* TabedNavVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E45B1963E96A00C57A8E /* TabedNavVCTests.m */; };
+		B014E4671963E9C100C57A8E /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E4661963E9C100C57A8E /* RootVC.m */; };
+		B014E46A1963E9F600C57A8E /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E4691963E9F600C57A8E /* FirstVC.m */; };
+		B014E46D1963EA3300C57A8E /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B014E46C1963EA3300C57A8E /* SecondVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B014E4531963E96A00C57A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B014E42B1963E96A00C57A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B014E4321963E96A00C57A8E;
+			remoteInfo = TabedNavVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B014E4331963E96A00C57A8E /* TabedNavVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabedNavVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B014E4361963E96A00C57A8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B014E4381963E96A00C57A8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B014E43A1963E96A00C57A8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B014E43E1963E96A00C57A8E /* TabedNavVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabedNavVC-Info.plist"; sourceTree = "<group>"; };
+		B014E4401963E96A00C57A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B014E4421963E96A00C57A8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B014E4441963E96A00C57A8E /* TabedNavVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabedNavVC-Prefix.pch"; sourceTree = "<group>"; };
+		B014E4451963E96A00C57A8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B014E4461963E96A00C57A8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B014E4481963E96A00C57A8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B014E44E1963E96A00C57A8E /* TabedNavVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabedNavVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B014E44F1963E96A00C57A8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B014E4571963E96A00C57A8E /* TabedNavVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabedNavVCTests-Info.plist"; sourceTree = "<group>"; };
+		B014E4591963E96A00C57A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B014E45B1963E96A00C57A8E /* TabedNavVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabedNavVCTests.m; sourceTree = "<group>"; };
+		B014E4651963E9C100C57A8E /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		B014E4661963E9C100C57A8E /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		B014E4681963E9F600C57A8E /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		B014E4691963E9F600C57A8E /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		B014E46B1963EA3300C57A8E /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		B014E46C1963EA3300C57A8E /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B014E4301963E96A00C57A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E4391963E96A00C57A8E /* CoreGraphics.framework in Frameworks */,
+				B014E43B1963E96A00C57A8E /* UIKit.framework in Frameworks */,
+				B014E4371963E96A00C57A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B014E44B1963E96A00C57A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E4501963E96A00C57A8E /* XCTest.framework in Frameworks */,
+				B014E4521963E96A00C57A8E /* UIKit.framework in Frameworks */,
+				B014E4511963E96A00C57A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B014E42A1963E96A00C57A8E = {
+			isa = PBXGroup;
+			children = (
+				B014E43C1963E96A00C57A8E /* TabedNavVC */,
+				B014E4551963E96A00C57A8E /* TabedNavVCTests */,
+				B014E4351963E96A00C57A8E /* Frameworks */,
+				B014E4341963E96A00C57A8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B014E4341963E96A00C57A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B014E4331963E96A00C57A8E /* TabedNavVC.app */,
+				B014E44E1963E96A00C57A8E /* TabedNavVCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B014E4351963E96A00C57A8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B014E4361963E96A00C57A8E /* Foundation.framework */,
+				B014E4381963E96A00C57A8E /* CoreGraphics.framework */,
+				B014E43A1963E96A00C57A8E /* UIKit.framework */,
+				B014E44F1963E96A00C57A8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B014E43C1963E96A00C57A8E /* TabedNavVC */ = {
+			isa = PBXGroup;
+			children = (
+				B014E4451963E96A00C57A8E /* AppDelegate.h */,
+				B014E4461963E96A00C57A8E /* AppDelegate.m */,
+				B014E4651963E9C100C57A8E /* RootVC.h */,
+				B014E4661963E9C100C57A8E /* RootVC.m */,
+				B014E4681963E9F600C57A8E /* FirstVC.h */,
+				B014E4691963E9F600C57A8E /* FirstVC.m */,
+				B014E46B1963EA3300C57A8E /* SecondVC.h */,
+				B014E46C1963EA3300C57A8E /* SecondVC.m */,
+				B014E4481963E96A00C57A8E /* Images.xcassets */,
+				B014E43D1963E96A00C57A8E /* Supporting Files */,
+			);
+			path = TabedNavVC;
+			sourceTree = "<group>";
+		};
+		B014E43D1963E96A00C57A8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B014E43E1963E96A00C57A8E /* TabedNavVC-Info.plist */,
+				B014E43F1963E96A00C57A8E /* InfoPlist.strings */,
+				B014E4421963E96A00C57A8E /* main.m */,
+				B014E4441963E96A00C57A8E /* TabedNavVC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B014E4551963E96A00C57A8E /* TabedNavVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B014E45B1963E96A00C57A8E /* TabedNavVCTests.m */,
+				B014E4561963E96A00C57A8E /* Supporting Files */,
+			);
+			path = TabedNavVCTests;
+			sourceTree = "<group>";
+		};
+		B014E4561963E96A00C57A8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B014E4571963E96A00C57A8E /* TabedNavVCTests-Info.plist */,
+				B014E4581963E96A00C57A8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B014E4321963E96A00C57A8E /* TabedNavVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B014E45F1963E96A00C57A8E /* Build configuration list for PBXNativeTarget "TabedNavVC" */;
+			buildPhases = (
+				B014E42F1963E96A00C57A8E /* Sources */,
+				B014E4301963E96A00C57A8E /* Frameworks */,
+				B014E4311963E96A00C57A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabedNavVC;
+			productName = TabedNavVC;
+			productReference = B014E4331963E96A00C57A8E /* TabedNavVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B014E44D1963E96A00C57A8E /* TabedNavVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B014E4621963E96A00C57A8E /* Build configuration list for PBXNativeTarget "TabedNavVCTests" */;
+			buildPhases = (
+				B014E44A1963E96A00C57A8E /* Sources */,
+				B014E44B1963E96A00C57A8E /* Frameworks */,
+				B014E44C1963E96A00C57A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B014E4541963E96A00C57A8E /* PBXTargetDependency */,
+			);
+			name = TabedNavVCTests;
+			productName = TabedNavVCTests;
+			productReference = B014E44E1963E96A00C57A8E /* TabedNavVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B014E42B1963E96A00C57A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = caigee;
+				TargetAttributes = {
+					B014E44D1963E96A00C57A8E = {
+						TestTargetID = B014E4321963E96A00C57A8E;
+					};
+				};
+			};
+			buildConfigurationList = B014E42E1963E96A00C57A8E /* Build configuration list for PBXProject "TabedNavVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B014E42A1963E96A00C57A8E;
+			productRefGroup = B014E4341963E96A00C57A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B014E4321963E96A00C57A8E /* TabedNavVC */,
+				B014E44D1963E96A00C57A8E /* TabedNavVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B014E4311963E96A00C57A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E4411963E96A00C57A8E /* InfoPlist.strings in Resources */,
+				B014E4491963E96A00C57A8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B014E44C1963E96A00C57A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E45A1963E96A00C57A8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B014E42F1963E96A00C57A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E4671963E9C100C57A8E /* RootVC.m in Sources */,
+				B014E46A1963E9F600C57A8E /* FirstVC.m in Sources */,
+				B014E4471963E96A00C57A8E /* AppDelegate.m in Sources */,
+				B014E46D1963EA3300C57A8E /* SecondVC.m in Sources */,
+				B014E4431963E96A00C57A8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B014E44A1963E96A00C57A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B014E45C1963E96A00C57A8E /* TabedNavVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B014E4541963E96A00C57A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B014E4321963E96A00C57A8E /* TabedNavVC */;
+			targetProxy = B014E4531963E96A00C57A8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B014E43F1963E96A00C57A8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B014E4401963E96A00C57A8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B014E4581963E96A00C57A8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B014E4591963E96A00C57A8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B014E45D1963E96A00C57A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B014E45E1963E96A00C57A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B014E4601963E96A00C57A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabedNavVC/TabedNavVC-Prefix.pch";
+				INFOPLIST_FILE = "TabedNavVC/TabedNavVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B014E4611963E96A00C57A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabedNavVC/TabedNavVC-Prefix.pch";
+				INFOPLIST_FILE = "TabedNavVC/TabedNavVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B014E4631963E96A00C57A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabedNavVC.app/TabedNavVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabedNavVC/TabedNavVC-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TabedNavVCTests/TabedNavVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B014E4641963E96A00C57A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TabedNavVC.app/TabedNavVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabedNavVC/TabedNavVC-Prefix.pch";
+				INFOPLIST_FILE = "TabedNavVCTests/TabedNavVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B014E42E1963E96A00C57A8E /* Build configuration list for PBXProject "TabedNavVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B014E45D1963E96A00C57A8E /* Debug */,
+				B014E45E1963E96A00C57A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B014E45F1963E96A00C57A8E /* Build configuration list for PBXNativeTarget "TabedNavVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B014E4601963E96A00C57A8E /* Debug */,
+				B014E4611963E96A00C57A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B014E4621963E96A00C57A8E /* Build configuration list for PBXNativeTarget "TabedNavVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B014E4631963E96A00C57A8E /* Debug */,
+				B014E4641963E96A00C57A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B014E42B1963E96A00C57A8E /* Project object */;
+}
